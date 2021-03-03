@@ -121,11 +121,7 @@ header{
     
   /*Req 6b*/
   /*Set background-image to header.jpg */
-  background-image: url("/images/header.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-image: url("../images/header.jpg");
 
  
 
@@ -182,8 +178,8 @@ header{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  align-items: center;
-  justify-items: center;
+  align-self: center;
+  justify-self: center;
 
 }
 
