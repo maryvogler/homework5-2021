@@ -75,12 +75,13 @@ nav a:hover {
   transition: top 1s ease-out;
   z-index: 1;
   position: relative;
+  top: -50px;
 
   /*Your code here*/
 }
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
-.skip a:focus{
+.skip:focus{
   position: relative;
   top: 10px;
   z-index: 1;
@@ -137,7 +138,7 @@ header{
 /*Req 8a, 8b, and 8c*/
 .about-image, .method-image, .client-image, .contact-image{
   column-span: all;
-  max-height: 650;
+  max-height: 650px;
   overflow: hidden;
   /*Your Code Here*/
 
@@ -194,7 +195,8 @@ header{
   nav{
     padding: 30px 0px;
     float: right;
-    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
     /*Your code here:*/
   }
 
