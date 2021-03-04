@@ -137,7 +137,7 @@ header{
 
 /*Req 8a, 8b, and 8c*/
 .about-image, .method-image, .client-image, .contact-image{
-  column-span: all;
+  grid-column: 1/span 4;
   max-height: 650px;
   overflow: hidden;
   /*Your Code Here*/
@@ -193,16 +193,17 @@ header{
     
   /*Req 10*/
   nav{
-    padding: 30px 0px;
-    float: right;
+   /*padding: 30px 0px;*/
+   /* float: right;*/
     top: 50%;
-    transform: translateY(-50%);
+  /*  transform: translateY(-50%); */
     /*Your code here:*/
   }
 
   /*Req 11*/
   .container{
     /*Your code here:*/
+    display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 400px 425px 425px 400px;
   }
